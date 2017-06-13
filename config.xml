@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.CampusReporter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Campus Reporter</name>
+    <description>
+        An app to help campus reporters tell stories.
+    </description>
+    <author email="info@ptcij.org" href="http://ptcij.org">
+        PTCIJ
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="mailto:*" launch-external="yes" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="Orientation" value="portrait"/>
+    <platform name="android">
+        <icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
+        <icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/icon/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+    </platform>
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-google-analytics" source="npm" />
+</widget>

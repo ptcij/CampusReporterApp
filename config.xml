@@ -13,6 +13,7 @@
     <allow-intent href="https://*/*" />
     <preference name="Orientation" value="portrait"/>
     <platform name="android">
+        <icon src="res/icon/android/logo.png" role="default" />
         <icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
         <icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi" />
         <icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi" />

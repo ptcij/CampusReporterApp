@@ -221,10 +221,10 @@ body {
   }
 
   a.active {
-    background-color: #8fd247;
+    background-color: $blue-start;
 
     .add-btn-wrapper {
-      border-color: #8fd247;
+      border-color: $blue-start;
     }
   }
 

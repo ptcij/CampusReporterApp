@@ -56,7 +56,7 @@
       </li>
 
       <li>
-        <a href="#about" class="about"><i class="fa fa-question-circle fa-2x"></i><br>{{_ 'nav.about' }}</a>
+        <a href="#about" class="about"><i class="fa fa-balance-scale fa-2x"></i><br>{{_ 'nav.about' }}</a>
       </li>
     </ul>
   </script>
@@ -325,27 +325,35 @@
 
     <article class="with-header free-text">
       <section>
-        <p class="lead">{{_ 'about.line1' }}</p>
-        <p class="lead">{{_ 'about.line2' }}</p>
-
-        <!-- <a href="#settings" class="btn btn-success btn-block change-language-cycler">{{_ 'splash.language_sel' }}</a> -->
+        <ul>
+          <li>Objectivity: News reports should not be biased in favour of one of the parties involved in the story being reported.
+            </li>
+          <li>Truth and Accuracy: The campus journalist must be accurate in his/her reports with reference to names of people and places, figures, and quotes.
+            </li>
+          <li>Harm limitation: News reports can cause severe harm to the people involved and even to the journalist.
+            </li>
+          <li>Confidentiality: Unless a source grants the journalist permission to disclose his/her name and identity, the journalist has no right to disclose such.
+            </li>
+          <li>Consideration for Libel and slander: Very often, when journalists adhere to rules of accuracy, confidentiality, objectivity, they are unlikely to be guilty of libel.
+            </li>
+          <li>Avoidance of Plagiarism: The campus journalist must always cite sources of information and do so appropriately.
+            </li>
+          <li>Avoidance of blackmail: While it is important for the campus journalist to seek to correct or expose immorality, it is also important to do that with a noble motive i.e. not be agents of blackmail.
+            </li>
+        </ul>  
+        
+        <a href="http://campusreporter.ng/ethics/" class="btn btn-success btn-block">{{_ 'about.ethics' }}</a>
 
         <a href="mailto:admin@ptcij.org?subject=Campus Reporter+Feedback" class="btn btn-success btn-block">{{_ 'about.feedback' }}</a>
+          
+        <a href="http://campusreporter.ng/" target="_blank" class="btn btn-success btn-block">CampusReporter.ng</a>
       </section>
 
       <section>
         <h2>{{_ 'about.background' }}</h2>
 
         <p>{{_ 'about.builtby' }}</p>
-
-        <!--<a href="http://campusreporter.ng/" target="_blank" class="btn btn-success btn-block">CampusReporter.ng</a>-->
-      </section>
-
-      <section>
-        <h2>Premium Times Centre for Investigative Journalism</h2>
-
-        <p>{{_ 'about.about_c4sa' }}</p>
-
+          
         <div class="row">
           <div class="col-xs-6">
             <img src="img/ptcij-logo.png" class="logo img-responsive">

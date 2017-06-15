@@ -286,9 +286,50 @@ ul.question-list {
   .story-view .story-done i, .story-view .story-done h2 {
     color: #cfa300; }
 
-.btn-success {
-  background-color: #6a5acd;
-  border-color: #6a5acd; }
+.btn-success { 
+  background-color: #6a5acd; 
+  border-color: #130269; 
+} 
+ 
+.btn-success:hover, 
+.btn-success:focus, 
+.btn-success:active, 
+.btn-success.active, 
+.open .dropdown-toggle.btn-success { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-success:active, 
+.btn-success.active, 
+.open .dropdown-toggle.btn-success { 
+  background-image: none; 
+} 
+ 
+.btn-success.disabled, 
+.btn-success[disabled], 
+fieldset[disabled] .btn-success, 
+.btn-success.disabled:hover, 
+.btn-success[disabled]:hover, 
+fieldset[disabled] .btn-success:hover, 
+.btn-success.disabled:focus, 
+.btn-success[disabled]:focus, 
+fieldset[disabled] .btn-success:focus, 
+.btn-success.disabled:active, 
+.btn-success[disabled]:active, 
+fieldset[disabled] .btn-success:active, 
+.btn-success.disabled.active, 
+.btn-success[disabled].active, 
+fieldset[disabled] .btn-success.active { 
+  background-color: #6a5acd; 
+  border-color: #130269; 
+} 
+ 
+.btn-success .badge { 
+  color: #6a5acd; 
+  background-color: #ffffff; 
+}
 
 .btn.success {
   text-transform: uppercase;

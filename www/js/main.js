@@ -88,7 +88,7 @@ var CampusReporter = Backbone.Model.extend({
     // localisation
     // fallback english polyglot
     this.polyglot_en = new Polyglot();
-    this.loadLocale(this.polyglot_en, 'en-za');
+    //this.loadLocale(this.polyglot_en, 'en-za');
     this.polyglot = new Polyglot();
     this.polyglot._t = this.polyglot.t;
     this.polyglot.t = _.bind(this.t, this);
@@ -140,14 +140,14 @@ var CampusReporter = Backbone.Model.extend({
 
     // if no locale is set, show a message telling the user that it's new,
     // then set a default
-    if (!this.state.get('locale')) {
+    /*if (!this.state.get('locale')) {
       alert('Change your language by tapping the settings icon in the top-right corner.');
       this.state.set('locale', 'en-za');
     }
 
     this.state.on('change:locale', this.localeChanged, this);
     this.loadLocale();
-  },
+  },*/
 
   save: function() {
     if (this.storage) {

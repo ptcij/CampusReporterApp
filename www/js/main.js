@@ -88,7 +88,7 @@ var CampusReporter = Backbone.Model.extend({
     // localisation
     // fallback english polyglot
     this.polyglot_en = new Polyglot();
-    //this.loadLocale(this.polyglot_en, 'en-za');
+    this.loadLocale(this.polyglot_en, 'en-za');
     this.polyglot = new Polyglot();
     this.polyglot._t = this.polyglot.t;
     this.polyglot.t = _.bind(this.t, this);

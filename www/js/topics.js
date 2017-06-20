@@ -763,36 +763,5 @@ var STORYCHECK_TOPICS = [
         "question": "Anecdotes, recollections of friends, relatives?"
       }
     ]
-  },
-  {
-    "icon": "fa-plane",
-    "id": "14",
-    "name": "AirCraft Accident",
-    "questions": [
-      {
-        "key": "1",
-        "question": "What time and where did the accident happen?"
-      },
-      {
-        "key": "2",
-        "question": "Were people injured or dead and how many?"
-      },
-      {
-        "key": "3",
-        "question": "What type of aircraft?"
-      },
-      {
-        "key": "4",
-        "question": "What airline?"
-      },
-      {
-        "key": "5",
-        "question": "What was the cause of the accident?"
-      },
-      {
-        "key": "6",
-        "question": "Were there any eye withness?"
-      }
-    ]
-  }  
+  }
 ];

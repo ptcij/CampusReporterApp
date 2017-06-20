@@ -3,7 +3,7 @@ var L10N = {
     "about": {
       "about_ptcij": "Premium Times Centre for Investigative Journalism <a href=\'http://ptcij.org/' target=\'_blank\'> &#91; PTCIJ &#93;</a> is a non-governmental organization, founded in 2014, to promote a truly independent media landscape that advances fundamental human rights, good governance and accountability in West Africa through investigative journalism, open data and civic technology.", 
       "background": "Background", 
-      "builtby": "Campus Reporter is built by <a href=\'http://ptcij.org/' target=\'_blank\'>PTCIJ</a> and is a slight modification of the <a href=\'http://code4sa.org' target=\'_blank\'>Code for South Africa's</a> Pocket Reporter app.", 
+      "builtby": "Campus Reporter is built by <a href=\'http://ptcij.org/' target=\'_blank\'>Premium Times Centre for Investigative Journalism</a> and is inspired by <a href=\'http://code4sa.org' target=\'_blank\'>Code for South Africa's</a> Pocket Reporter app.", 
       "contributors": "Contributors", 
       "feedback": "Send us feedback",
       "ethics": "More about ethics",
@@ -53,17 +53,6 @@ var L10N = {
           "7": "What are the contact details of the organisers (preferably phone numbers) in case of queries?",
           "8": "Was the News conference aired Live?",   
           "9": "Were agitators or a specific group of reporters barred from gaining access to the names and job to the venue of the News Conference?"
-        }
-      },
-      "14": {
-        "name": "Airplane Crash", 
-        "questions": {
-          "1": "What time and where did the accident happen?", 
-          "2": "Were people injured or dead and how many?", 
-          "3": "What type of aircraft?", 
-          "4": "What airline?", 
-          "5": "What was the cause of the accident?", 
-          "6": "Were there any eye withness?"
         }
       },
       "10": {

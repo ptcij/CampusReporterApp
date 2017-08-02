@@ -14,10 +14,10 @@
     <preference name="Orientation" value="portrait"/>
     <platform name="android">
         <icon src="res/icon/android/logo.png" role="default" />
-        <icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
-        <icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi" />
-        <icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi" />
-        <icon src="res/icon/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+        <icon src="res/icon/android/ldpi.png" qualifier="ldpi" />
+        <icon src="res/icon/android/mdpi.png" qualifier="mdpi" />
+        <icon src="res/icon/android/hdpi.png" qualifier="hdpi" />
+        <icon src="res/icon/android/xhdpi.png" qualifier="xhdpi" />
     </platform>
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />

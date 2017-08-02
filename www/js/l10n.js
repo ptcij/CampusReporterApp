@@ -3,7 +3,7 @@ var L10N = {
     "about": {
       "about_ptcij": "Premium Times Centre for Investigative Journalism <a href=\'http://ptcij.org/' target=\'_blank\'> &#91; PTCIJ &#93;</a> is a non-governmental organization, founded in 2014, to promote a truly independent media landscape that advances fundamental human rights, good governance and accountability in West Africa through investigative journalism, open data and civic technology.", 
       "background": "Background", 
-      "builtby": "Campus Reporter is built by <a href=\'http://ptcij.org/' target=\'_blank\'>Premium Times Centre for Investigative Journalism</a> and is inspired by <a href=\'http://code4sa.org' target=\'_blank\'>Code for South Africa's</a> Pocket Reporter app.", 
+      "builtby": "Campus Reporter is built by <a href=\'http://ptcij.org/' target=\'_blank\'>PTCIJ</a> and is a slight modification of the <a href=\'http://code4sa.org' target=\'_blank\'>Code for South Africa's</a> Pocket Reporter app.", 
       "contributors": "Contributors", 
       "feedback": "Send us feedback",
       "ethics": "More about ethics",

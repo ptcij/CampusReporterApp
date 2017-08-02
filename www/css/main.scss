@@ -14,15 +14,15 @@ $gold: #ffca03;
 
 $success: #03ac20;
 
-$blue-start: #7b68ee;
-$blue-middle: #6a5acd;
-$blue-end: #0000ff;
+$red-start: #b63234;
+$red-middle: #a40002;
+$red-end: #830001;
 
 $header-bg: $black;
 $header-fg: $white;
 
 $footer-fg: $white;
-$footer-bg: $blue-middle;
+$footer-bg: $red-middle;
 
 * {
   box-sizing: border-box;
@@ -221,10 +221,10 @@ body {
   }
 
   a.active {
-    background-color: $blue-start;
+    background-color: $red-start;
 
     .add-btn-wrapper {
-      border-color: $blue-start;
+      border-color: $red-start;
     }
   }
 
@@ -402,7 +402,7 @@ ul.question-list {
       visibility: hidden;
       transition: opacity 0.2s linear;
       float: right;
-      color: $blue-middle;
+      color: $red-middle;
       font-size: 22px;
       margin-left: 5px;
       margin-top: -2px;
@@ -459,8 +459,8 @@ ul.question-list {
 }
 
 .btn-success {
-  background-color: $blue-middle;
-  border-color: $blue-middle;
+  background-color: $red-middle;
+  border-color: $red-middle;
 }
 
 .btn.success {
@@ -524,8 +524,8 @@ ul.question-list {
   #splash {
     width: 100%;
     height: 100%;
-    background-color: $blue-middle;
-    background-image: radial-gradient(circle at 50% 50%, $blue-start, $blue-end);
+    background-color: $red-middle;
+    background-image: radial-gradient(circle at 50% 50%, $red-start, $red-end);
 
     .button {
       position: absolute;
@@ -628,7 +628,7 @@ ul.question-list {
       height: 100px;
       padding: 5px 2px;
 
-      background-color: $blue-middle;
+      background-color: $red-middle;
       border: 1px solid $grey-darker;
       text-align: center;
 
@@ -654,8 +654,8 @@ section.empty {
 }
 
 .progress-bar {
-  background-color: $blue-middle;
-  background-image: linear-gradient(to right, $blue-start, $blue-end);
+  background-color: $red-middle;
+  background-image: linear-gradient(to right, $red-start, $red-end);
 }
 
 .language-choices {

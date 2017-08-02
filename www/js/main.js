@@ -140,10 +140,10 @@ var CampusReporter = Backbone.Model.extend({
 
     // if no locale is set, show a message telling the user that it's new,
     // then set a default
-    if (!this.state.get('locale')) {
-      alert('Change your language by tapping the settings icon in the top-right corner.');
-      this.state.set('locale', 'en-za');
-    }
+    //if (!this.state.get('locale')) {
+    //  alert('Change your language by tapping the settings icon in the top-right corner.');
+    //  this.state.set('locale', 'en-za');
+    //}
 
     this.state.on('change:locale', this.localeChanged, this);
     this.loadLocale();
